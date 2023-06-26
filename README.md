@@ -15,6 +15,8 @@ This tool utilizes weather forecasts to schedule and automate tests based on the
 ## Overview
 The general architecture of the project consists of using a weather API to obtain up-to-date weather conditions, while Twilio is used for sending WhatsApp messages to notify and schedule the experiments.
 
+![Architecture](figures/MPPT.png "Architecture")
+
 ## Instructions
 To set up and run the project, follow these steps:
 
@@ -22,7 +24,8 @@ To set up and run the project, follow these steps:
 2. Create accounts on the weather API and Twilio platforms.
 3. Obtain the necessary API tokens, phone numbers, and user information.
 4. Save the obtained credentials as environment variables.
-5. Run the `main.py` script to initiate the experiment scheduling process.
+5. Make sure to correctly configure the request with the city of interest
+6. Run the `main.py` script to initiate the experiment scheduling process.
 
 ## License
 This project is licensed under the MIT License.
